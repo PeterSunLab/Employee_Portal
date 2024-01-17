@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KSwTLmjn4DmniWt+r+3xqnveAPv5THqyPYWY05OvWizjSuVcOjRcs5zOFob5FWQ39PKAIwz0r6sE5mGicWxozg==",
+  "dgSpecHash": "6o0U/PLiNl09bfDLL/qCymVwinfdt87sc9tjsAL874sG7hEItRRiMnr9c8gL6GHLV7BkoElt/l/RZrR+PCbHHA==",
   "success": true,
-  "projectFilePath": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\Client\\Client.csproj",
+  "projectFilePath": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\Client\\Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\peter\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.1\\microsoft.aspnetcore.authorization.8.0.1.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.1\\microsoft.aspnetcore.components.8.0.1.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.1\\microsoft.aspnetcore.components.analyzers.8.0.1.nupkg.sha512",
@@ -12,6 +13,7 @@
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.1\\microsoft.aspnetcore.components.webassembly.8.0.1.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\8.0.1\\microsoft.aspnetcore.components.webassembly.devserver.8.0.1.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.1\\microsoft.aspnetcore.metadata.8.0.1.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.1\\microsoft.extensions.configuration.binder.8.0.1.nupkg.sha512",

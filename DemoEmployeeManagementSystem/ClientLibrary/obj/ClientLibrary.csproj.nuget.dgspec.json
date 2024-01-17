@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\ClientLibrary\\ClientLibrary.csproj": {}
+    "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\ClientLibrary\\ClientLibrary.csproj": {}
   },
   "projects": {
-    "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\ClientLibrary\\ClientLibrary.csproj": {
+    "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\ClientLibrary\\ClientLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\ClientLibrary\\ClientLibrary.csproj",
+        "projectUniqueName": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\ClientLibrary\\ClientLibrary.csproj",
         "projectName": "ClientLibrary",
-        "projectPath": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\ClientLibrary\\ClientLibrary.csproj",
+        "projectPath": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\ClientLibrary\\ClientLibrary.csproj",
         "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\ClientLibrary\\obj\\",
+        "outputPath": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\ClientLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

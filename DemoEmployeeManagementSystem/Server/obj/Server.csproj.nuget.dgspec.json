@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\Server\\Server.csproj": {}
+    "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\Server\\Server.csproj": {}
   },
   "projects": {
-    "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\BaseLibrary\\BaseLibrary.csproj": {
+    "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\BaseLibrary\\BaseLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\BaseLibrary\\BaseLibrary.csproj",
+        "projectUniqueName": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\BaseLibrary\\BaseLibrary.csproj",
         "projectName": "BaseLibrary",
-        "projectPath": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\BaseLibrary\\BaseLibrary.csproj",
+        "projectPath": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\BaseLibrary\\BaseLibrary.csproj",
         "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\BaseLibrary\\obj\\",
+        "outputPath": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\BaseLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,14 +70,14 @@
         }
       }
     },
-    "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\ServerLibrary\\ServerLibrary.csproj": {
+    "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\ServerLibrary\\ServerLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\ServerLibrary\\ServerLibrary.csproj",
+        "projectUniqueName": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\ServerLibrary\\ServerLibrary.csproj",
         "projectName": "ServerLibrary",
-        "projectPath": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\ServerLibrary\\ServerLibrary.csproj",
+        "projectPath": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\ServerLibrary\\ServerLibrary.csproj",
         "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\ServerLibrary\\obj\\",
+        "outputPath": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\ServerLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -152,14 +158,14 @@
         }
       }
     },
-    "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\Server\\Server.csproj": {
+    "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\Server\\Server.csproj",
+        "projectUniqueName": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\Server\\Server.csproj",
+        "projectPath": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\Server\\obj\\",
+        "outputPath": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -181,11 +187,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\BaseLibrary\\BaseLibrary.csproj": {
-                "projectPath": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\BaseLibrary\\BaseLibrary.csproj"
+              "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\BaseLibrary\\BaseLibrary.csproj": {
+                "projectPath": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\BaseLibrary\\BaseLibrary.csproj"
               },
-              "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\ServerLibrary\\ServerLibrary.csproj": {
-                "projectPath": "D:\\VisualStudio2022\\DemoEmployeeManagementSystem\\ServerLibrary\\ServerLibrary.csproj"
+              "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\ServerLibrary\\ServerLibrary.csproj": {
+                "projectPath": "D:\\VisualStudio2022\\Employee_Portal\\DemoEmployeeManagementSystem\\ServerLibrary\\ServerLibrary.csproj"
               }
             }
           }
@@ -199,29 +205,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Components.WebAssembly": {
-              "target": "Package",
-              "version": "[8.0.1, )"
-            },
-            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.1, )"
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.1, )",
-              "autoReferenced": true
-            },
-            "Microsoft.NET.Sdk.WebAssembly.Pack": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.1, )",
-              "autoReferenced": true
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -233,11 +216,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       },
